@@ -1,5 +1,5 @@
 import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
+import "@bookingjini-labs/bookingjini-icons/fonts/bookingjini-icons.css";
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
@@ -8,7 +8,7 @@ interface SearchBarProps {
 const SearchBar = ({ onSearch }: SearchBarProps) => {
   return (
     <div className="relative w-full max-w-xl mx-auto">
-      <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+      <i className="icon-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
       <Input
         type="text"
         placeholder="Search icons..."

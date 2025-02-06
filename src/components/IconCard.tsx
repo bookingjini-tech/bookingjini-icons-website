@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Icon } from "@/lib/icons";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
-import { Copy } from "lucide-react";
+import "@bookingjini-labs/bookingjini-icons/fonts/bookingjini-icons.css";
 
 interface IconCardProps {
   icon: Icon;
@@ -31,7 +31,7 @@ const IconCard = ({ icon }: IconCardProps) => {
           size="sm"
           onClick={() => copyToClipboard(icon.jsx, "JSX")}
         >
-          <Copy className="w-4 h-4 mr-1" />
+          <i className="icon-copy w-4 h-4 mr-1"></i>
           JSX
         </Button>
         <Button
@@ -39,7 +39,7 @@ const IconCard = ({ icon }: IconCardProps) => {
           size="sm"
           onClick={() => copyToClipboard(icon.svg, "SVG")}
         >
-          <Copy className="w-4 h-4 mr-1" />
+          <i className="icon-copy w-4 h-4 mr-1"></i>
           SVG
         </Button>
       </div>
