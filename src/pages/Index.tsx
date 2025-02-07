@@ -3,6 +3,7 @@ import { useState } from "react";
 import Hero from "@/components/Hero";
 import SearchBar from "@/components/SearchBar";
 import IconGrid from "@/components/IconGrid";
+import Footer from "@/components/Footer";
 import { icons } from "@/lib/icons";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
@@ -22,27 +23,31 @@ const Index = () => {
   });
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4">
-        <Hero />
-        <div className="mb-8">
-          <SearchBar onSearch={setSearchQuery} />
-          <div className="mt-4 max-w-xs mx-auto">
-            <Select onValueChange={setStyleFilter} defaultValue="all">
-              <SelectTrigger>
-                <SelectValue placeholder="Filter by style" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Styles</SelectItem>
-                <SelectItem value="duotone">Duo Tone</SelectItem>
-                <SelectItem value="fill">Fill</SelectItem>
-                <SelectItem value="line">Line</SelectItem>
-              </SelectContent>
-            </Select>
+    <div className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+      <div className="relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-indigo-100/20 backdrop-blur-3xl" />
+        <div className="container relative mx-auto px-4">
+          <Hero />
+          <div className="mb-8 animate-fade-in">
+            <SearchBar onSearch={setSearchQuery} />
+            <div className="mt-4 max-w-xs mx-auto">
+              <Select onValueChange={setStyleFilter} defaultValue="all">
+                <SelectTrigger className="bg-white/50 backdrop-blur-sm border-gray-200 hover:border-primary/50 transition-colors">
+                  <SelectValue placeholder="Filter by style" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All Styles</SelectItem>
+                  <SelectItem value="duotone">Duo Tone</SelectItem>
+                  <SelectItem value="fill">Fill</SelectItem>
+                  <SelectItem value="line">Line</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
           </div>
+          <IconGrid icons={filteredIcons} />
         </div>
-        <IconGrid icons={filteredIcons} />
       </div>
+      <Footer />
     </div>
   );
 };
