@@ -35,7 +35,7 @@ const Index = () => {
                 <SelectTrigger className="bg-white/50 backdrop-blur-sm border-gray-200 hover:border-primary/50 transition-colors">
                   <SelectValue placeholder="Filter by style" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="z-50">
                   <SelectItem value="all">All Styles</SelectItem>
                   <SelectItem value="duotone">Duo Tone</SelectItem>
                   <SelectItem value="fill">Fill</SelectItem>

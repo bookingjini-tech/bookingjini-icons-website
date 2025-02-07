@@ -4,6 +4,7 @@ import { Icon } from "@/lib/icons";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import "@bookingjini-labs/bookingjini-icons/fonts/bookingjini-icons.css";
+import { Copy } from "lucide-react";
 
 interface IconCardProps {
   icon: Icon;
@@ -33,7 +34,7 @@ const IconCard = ({ icon }: IconCardProps) => {
           onClick={() => copyToClipboard(icon.jsx)}
           className="bg-white hover:bg-primary hover:text-white transition-all duration-200"
         >
-          <i className="icon-copy w-4 h-4 mr-1"></i>
+          <Copy className="mr-2 h-4 w-4" />
           Copy JSX
         </Button>
       </div>

@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import "@bookingjini-labs/bookingjini-icons/fonts/bookingjini-icons.css";
+import { Github } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
           onClick={() => window.open("https://github.com/Bookingjini-Tech/bookingjini-icons", "_blank")}
           className="bg-white/50 backdrop-blur-sm hover:bg-primary hover:text-white transition-all duration-200"
         >
-          <i className="icon-github w-5 h-5 mr-2"></i>
+          <Github className="w-5 h-5 mr-2" />
           View on GitHub
         </Button>
       </div>
