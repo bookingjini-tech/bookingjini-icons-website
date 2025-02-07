@@ -35,7 +35,7 @@ const IconCard = ({ icon }: IconCardProps) => {
           className="bg-white hover:bg-primary hover:text-white transition-all duration-200"
         >
           <Copy className="mr-2 h-4 w-4" />
-          Copy JSX
+          Copy
         </Button>
       </div>
     </div>
