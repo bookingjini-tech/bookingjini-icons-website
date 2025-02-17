@@ -9,7 +9,7 @@ import { Copy } from "lucide-react";
 interface IconCardProps {
   icon: Icon;
 }
- 
+
 const IconCard = ({ icon }: IconCardProps) => {
   const [showJSX, setShowJSX] = useState(false);
 
