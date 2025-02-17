@@ -6,7 +6,7 @@ const Hero = () => {
   const totalIcons = icons.length;
 
   return (
-    <div className="text-center py-20 px-4">
+    <div className="text-center pt-20 pb-6 px-4">
       <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-gray-900 via-primary to-gray-900 bg-clip-text text-transparent animate-fade-in">
         Hospitality Icons
       </h1>
@@ -31,6 +31,21 @@ const Hero = () => {
       </div>
       <div className="inline-flex items-center rounded-md bg-blue-50 px-2 py-2 my-3 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset">
         {totalIcons} icons available
+      </div>
+
+      {/* NPM Package link section */}
+      <div className="animate-fade-in py-4">
+        <p className="text-sm text-gray-800">Install these icons via NPM</p>
+        <div className="py-2">
+          <a
+            href="https://www.npmjs.com/package/@bookingjini-labs/bookingjini-icons"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-1 text-primary underline hover:text-primary/80"
+          >
+            @bookingjini-labs/bookingjini-icons
+          </a>
+        </div>
       </div>
     </div>
   );
