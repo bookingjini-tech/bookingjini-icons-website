@@ -217,7 +217,7 @@ export const icons: Icon[] = [
     jsx: '<i className="icon-basket-line"></i>',
     category: "Shopping",
   },
-   {
+  {
     id: "bathrobe-fill",
     name: "Bathrobe Fill",
     svg: `<i class="icon-bathrobe-fill"></i>`,
@@ -315,7 +315,7 @@ export const icons: Icon[] = [
     jsx: '<i className="icon-billiards-line"></i>',
     category: "Entertainment & Leisure",
   },
-   {
+  {
     id: "bin-fill",
     name: "Bin Fill",
     svg: `<i class="icon-bin-fill"></i>`,
@@ -330,6 +330,20 @@ export const icons: Icon[] = [
     category: "Facilities",
   },
   {
+    id: "bingo-fill",
+    name: "Bingo Fill",
+    svg: `<i class="icon-bingo-fill"></i>`,
+    jsx: '<i className="icon-bingo-fill"></i>',
+    category: "Entertainment & Leisure",
+  },
+  {
+    id: "bingo-line",
+    name: "Bingo Line",
+    svg: `<i class="icon-bingo-line"></i>`,
+    jsx: '<i className="icon-bingo-line"></i>',
+    category: "Entertainment & Leisure",
+  },
+  {
     id: "blanket-fill",
     name: "Blanket Fill",
     svg: `<i class="icon-blanket-fill"></i>`,
@@ -342,6 +356,20 @@ export const icons: Icon[] = [
     svg: `<i class="icon-blanket-line"></i>`,
     jsx: '<i className="icon-blanket-line"></i>',
     category: "Accommodation",
+  },
+  {
+    id: "boat-fill",
+    name: "Boat Fill",
+    svg: `<i class="icon-boat-fill"></i>`,
+    jsx: '<i className="icon-boat-fill"></i>',
+    category: "Travel & Transportation",
+  },
+  {
+    id: "boat-line",
+    name: "Boat Line",
+    svg: `<i class="icon-boat-line"></i>`,
+    jsx: '<i className="icon-boat-line"></i>',
+    category: "Travel & Transportation",
   },
   {
     id: "bon-fire-fill",
@@ -677,6 +705,20 @@ export const icons: Icon[] = [
     name: "Coffee Cup Line",
     svg: `<i class="icon-coffee-line"></i>`,
     jsx: '<i className="icon-coffee-line"></i>',
+    category: "Food & Dining",
+  },
+  {
+    id: "coffee-machine-fill",
+    name: "Coffee Machine Fill",
+    svg: `<i class="icon-coffee-machine-fill"></i>`,
+    jsx: '<i className="icon-coffee-machine-fill"></i>',
+    category: "Food & Dining",
+  },
+  {
+    id: "coffee-machine-line",
+    name: "Coffee Machine Line",
+    svg: `<i class="icon-coffee-machine-line"></i>`,
+    jsx: '<i className="icon-coffee-machine-line"></i>',
     category: "Food & Dining",
   },
   {
@@ -1380,6 +1422,20 @@ export const icons: Icon[] = [
     category: "Food & Dining",
   },
   {
+    id: "keycard-fill",
+    name: "Keycard Fill",
+    svg: `<i class="icon-keycard-fill"></i>`,
+    jsx: '<i className="icon-keycard-fill"></i>',
+    category: "Security & Safety",
+  },
+  {
+    id: "keycard-line",
+    name: "Keycard Line",
+    svg: `<i class="icon-keycard-line"></i>`,
+    jsx: '<i className="icon-keycard-line"></i>',
+    category: "Security & Safety",
+  },
+  {
     id: "knife-fork-fill",
     name: "Knife Fork Fill",
     svg: `<i class="icon-knife-fork-fill\"></i>`,
@@ -1533,7 +1589,7 @@ export const icons: Icon[] = [
     jsx: '<i className="icon-milk-line"></i>',
     category: "Food & Beverages",
   },
-    {
+  {
     id: "mirror-fill",
     name: "Mirror Fill",
     svg: `<i class="icon-mirror-fill"></i>`,
@@ -1546,6 +1602,20 @@ export const icons: Icon[] = [
     svg: `<i class="icon-mirror-line"></i>`,
     jsx: '<i className="icon-mirror-line"></i>',
     category: "Facilities",
+  },
+  {
+    id: "mountain-fill",
+    name: "Mountain Fill",
+    svg: `<i class="icon-mountain-fill"></i>`,
+    jsx: '<i className="icon-mountain-fill"></i>',
+    category: "Outdoor & Activities",
+  },
+  {
+    id: "mountain-line",
+    name: "Mountain Line",
+    svg: `<i class="icon-mountain-line"></i>`,
+    jsx: '<i className="icon-mountain-line"></i>',
+    category: "Outdoor & Activities",
   },
   {
     id: "network-fill",
@@ -1617,7 +1687,7 @@ export const icons: Icon[] = [
     jsx: '<i className="icon-toilet-paper-line"></i>',
     category: "Housekeeping",
   },
-    {
+  {
     id: "twin-bed-fill",
     name: "Twin Bed Fill",
     svg: `<i class="icon-twin-bed-fill"></i>`,
@@ -1729,7 +1799,7 @@ export const icons: Icon[] = [
     jsx: '<i className="icon-plug-line"></i>',
     category: "Technology & Communication",
   },
-      {
+  {
     id: "pot-fill",
     name: "Pot Fill",
     svg: `<i class="icon-pot-fill"></i>`,
@@ -1925,7 +1995,7 @@ export const icons: Icon[] = [
     jsx: '<i className="icon-shopping-bag-line"></i>',
     category: "Shopping",
   },
-    {
+  {
     id: "shower-fill",
     name: "Shower Fill",
     svg: `<i class="icon-shower-fill"></i>`,
@@ -1939,7 +2009,7 @@ export const icons: Icon[] = [
     jsx: '<i className="icon-shower-line"></i>',
     category: "Facilities",
   },
-    {
+  {
     id: "slipper-fill",
     name: "Slipper Fill",
     svg: `<i class="icon-slipper-fill"></i>`,
